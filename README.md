@@ -43,11 +43,11 @@ The application follows the **Artisanal Heritage** design system, which bridges 
 
 ---
 
-## 📸 Screenshots (Stitch Blueprints)
+## 📸 Screenshots 
 
-Below are the design blueprints generated via Stitch V2 that served as the foundation for the app's UI:
+Below are the app's UI:
 
-| Screen | Blueprint |
+| Screen |
 | :--- | :--- |
 | **MPIN Login** | ![MPIN Login](Stitch_Screens/mpin_login/screen.png) |
 | **Set New MPIN** | ![Set New MPIN](Stitch_Screens/set_new_mpin/screen.png) |
