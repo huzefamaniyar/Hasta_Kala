@@ -1,4 +1,4 @@
-# Hasta-Kala (Artisanal Heritage POS)
+# Hasta-Kala 
 
 > A pixel-perfect Android POS app empowering rural artisans to digitize sales, track inventory, and discover best-selling products — fully offline.
 
