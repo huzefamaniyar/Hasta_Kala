@@ -13,7 +13,7 @@
 
 ## 🧩 Problem Statement
 
-Rural artisans — makers of pottery, textiles, and handcrafts — have no visibility into which products sell best. They rely on manual ledgers, leading to dead stock and wasted effort. **Hasta-Kala** solves this by turning every sale into a data point that drives smarter production decisions, giving rural creators the same analytical power as modern retail businesses.
+Rural artisans makers of pottery, textiles, and handcrafts have no visibility into which products sell best. They rely on manual ledgers, leading to dead stock and wasted effort. **Hasta-Kala** solves this by turning every sale into a data point that drives smarter production decisions, giving rural creators the same analytical power as modern retail businesses.
 
 ---
 
