@@ -17,18 +17,6 @@ Rural artisans — makers of pottery, textiles, and handcrafts — have no visib
 
 ---
 
-## 🎨 Design System: Artisanal Heritage
-
-The application follows the **Artisanal Heritage** design system, which bridges the gap between traditional craftsmanship and modern digital efficiency. It features:
-
-- **Espresso Brown & Saffron Orange Palette**: Warm, sophisticated, and high-contrast.
-- **Premium Typography**: Manrope for headlines and Inter for legibility.
-- **Tactile UI**: Subtle inner shadows and layered surfaces that mimic physical materials.
-- **Glassmorphism Effects**: Large touch targets ensuring accessibility for non-digital-native users.
-- **Three-Tap Rule**: Any core action (log a sale, check stock, view best seller) is completed within 3 taps.
-
----
-
 ## 🚀 Features
 
 - 🔐 **Secure Authentication** — MPIN-based login and setup with OTP verification.
@@ -40,25 +28,6 @@ The application follows the **Artisanal Heritage** design system, which bridges 
 - ⚠️ **Stock Alerts** — Threshold-based alerts when stock falls below minimum.
 - 📅 **Income Log** — Weekly and monthly income views with filtering capability.
 - 🔍 **Sales Ledger** — Full transaction history with search and sort functionality.
-
----
-
-## 📸 Screenshots 
-
-Below are the app's UI:
-
-| Screen |
-| :--- | :--- |
-| **MPIN Login** | ![MPIN Login](Stitch_Screens/mpin_login/screen.png) |
-| **Set New MPIN** | ![Set New MPIN](Stitch_Screens/set_new_mpin/screen.png) |
-| **OTP Verification** | ![OTP Verification](Stitch_Screens/otp_verification/screen.png) |
-| **Dashboard & Analytics** | ![Dashboard](Stitch_Screens/dashboard_analytics/screen.png) |
-| **POS Quick Sell** | ![POS](Stitch_Screens/pos_quick_sell/screen.png) |
-| **Manage Inventory** | ![Inventory](Stitch_Screens/manage_inventory/screen.png) |
-| **Product Detail** | ![Product Detail](Stitch_Screens/product_detail/screen.png) |
-| **Bill Detail** | ![Bill Detail](Stitch_Screens/bill_detail/screen.png) |
-| **History of Sales** | ![History of Sales](Stitch_Screens/history_of_sales/screen.png) |
-| **Profile Settings** | ![Profile](Stitch_Screens/profile_settings/screen.png) |
 
 ---
 
@@ -103,11 +72,6 @@ Hasta_Kala/
 │               ├── drawable/          # Icons & Vector Assets
 │               └── values/            # Colors, Strings, Themes
 ├── Stitch_Screens/                    # UI Design Blueprints
-│   ├── mpin_login/
-│   ├── dashboard_analytics/
-│   ├── pos_quick_sell/
-│   ├── manage_inventory/
-│   └── ...
 ├── build.gradle.kts
 ├── settings.gradle.kts
 ├── gradle.properties
@@ -134,7 +98,7 @@ Hasta_Kala/
    ```
 
 2. **Open in Android Studio**:
-   Select the `Hasta_Kala` folder and wait for the Gradle sync to complete.
+   Select the `Hasta_Kala` folder and wait for Gradle sync to complete.
 
 3. **Configure Local Properties**:
    Ensure `local.properties` has the correct `sdk.dir` path:
@@ -165,10 +129,19 @@ Repository Layer
 Room Database (local offline storage)
 ```
 
-The app follows **MVVM** with a clean separation of concerns:
 - **UI Layer**: Composable screens observe ViewModel state reactively.
 - **ViewModel Layer**: Holds business logic, data transformation, and UI state.
 - **Data Layer**: Room DAOs handle all database read/write operations.
+
+---
+
+## 🎨 Design System: Artisanal Heritage
+
+- **Espresso Brown & Saffron Orange Palette**: Warm, sophisticated, and high-contrast.
+- **Premium Typography**: Manrope for headlines and Inter for legibility.
+- **Tactile UI**: Subtle inner shadows and layered surfaces that mimic physical materials.
+- **Glassmorphism Effects**: Large touch targets for non-digital-native users.
+- **Three-Tap Rule**: Any core action completed within 3 taps.
 
 ---
 
@@ -192,6 +165,25 @@ SKSVMACET, Lakshmeshwar — VTU Affiliated
 
 Internship at **MindMatrix.io** (CL Infotech Pvt. Ltd.), Bangalore — 2025–26
 > Project 14 of the Android App Development using GenAI internship program.
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="Stitch_Screens/mpin_login/screen.png" width="150" alt="MPIN Login"/>
+  <img src="Stitch_Screens/set_new_mpin/screen.png" width="150" alt="Set New MPIN"/>
+  <img src="Stitch_Screens/otp_verification/screen.png" width="150" alt="OTP Verification"/>
+  <img src="Stitch_Screens/dashboard_analytics/screen.png" width="150" alt="Dashboard"/>
+  <img src="Stitch_Screens/pos_quick_sell/screen.png" width="150" alt="POS Quick Sell"/>
+</p>
+<p align="center">
+  <img src="Stitch_Screens/manage_inventory/screen.png" width="150" alt="Manage Inventory"/>
+  <img src="Stitch_Screens/product_detail/screen.png" width="150" alt="Product Detail"/>
+  <img src="Stitch_Screens/bill_detail/screen.png" width="150" alt="Bill Detail"/>
+  <img src="Stitch_Screens/history_of_sales/screen.png" width="150" alt="History of Sales"/>
+  <img src="Stitch_Screens/profile_settings/screen.png" width="150" alt="Profile Settings"/>
+</p>
 
 ---
 
